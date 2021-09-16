@@ -1,0 +1,23 @@
+*{
+    background-color: pink;
+    box-sizing: border-box;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.col{
+    float: left;
+    padding: 7px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cake::after{
+    content: "";
+    clear: both;
+    display: table;
+}
